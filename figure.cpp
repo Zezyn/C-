@@ -13,11 +13,11 @@
 using namespace std;
 
 void Figure::center() {
-    cout << "Center in FIGURE" << endl;
+    //cout << "Center in FIGURE" << endl;
 }
 
 void Figure::draw() {
-    cout << "Draw in FIGURE" << endl;
+    //cout << "Draw in FIGURE" << endl;
 }
 
 void Figure::erase() {

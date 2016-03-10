@@ -45,19 +45,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56dd6cbf-344d-4cbe-82bf-3de3e2c63472" name="Default" comment="Version two, inheritance working">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/figure.h.gch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rectangle.h.gch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/triangle.h.gch" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c15_7.cpp" afterPath="$PROJECT_DIR$/c15_7.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/figure.cpp" afterPath="$PROJECT_DIR$/figure.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/figure.h" afterPath="$PROJECT_DIR$/figure.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rectangle.cpp" afterPath="$PROJECT_DIR$/rectangle.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rectangle.h" afterPath="$PROJECT_DIR$/rectangle.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/triangle.cpp" afterPath="$PROJECT_DIR$/triangle.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/triangle.h" afterPath="$PROJECT_DIR$/triangle.h" />
     </list>
     <ignored path="c15_7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +71,8 @@
       <file leaf-file-name="c15_7.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c15_7.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.878553">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#161#180#0" expanded="true" />
               </folding>
@@ -178,10 +168,10 @@
         <option value="$PROJECT_DIR$/rectangle.h" />
         <option value="$PROJECT_DIR$/figure.h" />
         <option value="$PROJECT_DIR$/triangle.h" />
-        <option value="$PROJECT_DIR$/c15_7.cpp" />
-        <option value="$PROJECT_DIR$/figure.cpp" />
         <option value="$PROJECT_DIR$/rectangle.cpp" />
         <option value="$PROJECT_DIR$/triangle.cpp" />
+        <option value="$PROJECT_DIR$/figure.cpp" />
+        <option value="$PROJECT_DIR$/c15_7.cpp" />
       </list>
     </option>
   </component>
@@ -310,7 +300,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1167" y="17" width="1400" height="1000" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5065398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,16 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/figure.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#161#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rectangle.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -448,10 +428,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c15_7.cpp">
+    <entry file="file://$PROJECT_DIR$/figure.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#161#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c15_7.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.878553">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#161#180#0" expanded="true" />
           </folding>

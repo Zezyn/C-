@@ -16,11 +16,18 @@ using namespace std;
 
 int main() {
     Triangle tri;
-    tri.draw();
     Rectangle rect;
-    //cout << "\nDerived class Triangle object calling center().\n";
-    tri.center(); //Calls Draw center
-    //cout << "\nDerived class Rectangle object calling center().\n";
-    rect.center(); //Calls Draw center
+    cout << "\nDerived class Triangle object calling draw().\n";
+    tri.draw();     //Calls Draw
+    cout << "\nDerived class Triangle object calling center().\n";
+    tri.center();   //Calls Draw center
+    cout << "\nDerived class Triangle object calling erase().\n";
+    tri.erase();    //Calls Erase
+    cout << "\nDerived class Rectangle object calling draw().\n";
+    rect.draw();    //Calls Draw
+    cout << "\nDerived class Rectangle object calling center().\n";
+    rect.center();  //Calls Draw center
+    cout << "\nDerived class Rectangle object calling erase().\n";
+    rect.erase();   //Calls Erase
     return 0;
 }
