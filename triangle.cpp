@@ -9,9 +9,5 @@
 //Add libraries here
 #include <iostream>
 #include "triangle.h"
-using namespace std;
 
-//Declare functions here
-void Triangle::center() {}
-void Triangle::draw() {}
-void Triangle::erase() {}
+using namespace std;

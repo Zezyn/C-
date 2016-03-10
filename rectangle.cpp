@@ -7,10 +7,7 @@
     Description: 
 */
 //Add libraries here
-#include <iostream>
 #include "rectangle.h"
-using namespace std;
+#include <iostream>
 
-void Rectangle::center() {}
-void Rectangle::draw() { }
-void Rectangle::erase() { }
+using namespace std;
