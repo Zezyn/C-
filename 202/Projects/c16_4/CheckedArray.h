@@ -5,9 +5,12 @@
 
 class CheckedArray {
     public:
-    
+        CheckedArray();
+        //CheckedArray(char first_value, char second_value);
+        char & operator[](int index);
     private:
-        
-}
+        char first;
+        char second;
+};
 
 #endif
