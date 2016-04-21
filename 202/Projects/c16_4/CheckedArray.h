@@ -3,14 +3,14 @@
 #ifndef CHECKEDARRAY_H
 #define CHECKEDARRAY_H
 
+#include <string>
+
 class CheckedArray {
     public:
         CheckedArray();
-        //CheckedArray(char first_value, char second_value);
-        char & operator[](int index);
     private:
-        char first;
-        char second;
+        typedef int* arrayPtr;
+        string size;
 };
 
 #endif

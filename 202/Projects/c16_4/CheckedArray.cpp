@@ -5,15 +5,16 @@
 
 using namespace std;
 
-CheckedArray::CheckedArray() { }
-
-char & CheckedArray::operator[] (int index)
-{
-    if (index == 1) { return first; }
-    else if (index == 2) { return second; }
-    else {
-        cout << "Illegal index value.\n";
-        exit(1);
-        }
+CheckedArray::CheckedArray() {
     
+    cout << "Enter the amount of numbers you wish to enter: ";
+    cin >> size;
+    
+    if(! (isdigit(size))) { cout << "This is not a integer!" << endl; /*throw add errorclass here*/  }
+    
+    arrayPtr a;
+    a = new int[size];
+
 }
+
+
