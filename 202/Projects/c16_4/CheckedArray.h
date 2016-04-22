@@ -5,10 +5,11 @@
 
 class CheckedArray {
     public:
-        CheckedArray();
+        CheckedArray(); //Constructor
+        char& operator[] (int index); //Overloading []
     private:
-        typedef int* arrayPtr;
-        int size;
+        typedef int* arrayPtr; //pointer to dynamic array
+        const int SIZE = 2; //Size of array
 };
 
 #endif

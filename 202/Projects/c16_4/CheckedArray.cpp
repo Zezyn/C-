@@ -4,17 +4,18 @@
 #include "CheckedArray.h"
 
 using namespace std;
+//Constructor
+CheckedArray::CheckedArray() { 
+    arrayPtr array;
+    array = new int[SIZE];
+} //End Constructor
 
-CheckedArray::CheckedArray() {
-     
-    cout << "Enter the amount of numbers you wish to enter: ";
-    cin >> size;
-    
-    if(cin.fail()) { cout << "This is not a integer!" << endl; /*throw add errorclass here*/  }
-    
-    arrayPtr a;
-    a = new int[size];
-
-}
-
-
+//Overloading []
+char & CheckedArray::operator[] (int index) {
+    if (index == 1) { /*return test;*/ }
+    else if (index == 2) { /*return test;*/ }
+    else { 
+        cout << "Illegal index value.\n"; //Throw error here
+        exit(1); 
+    }
+} //End Overloading
