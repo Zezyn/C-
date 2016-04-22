@@ -20,3 +20,9 @@ char & CheckedArray::operator[] (int index) {
         exit(1); 
     }
 } //End Overloading
+
+int CheckedArray::get_index() {
+    cout << "Enter the index number to lookup -> ";
+    cin >> index;
+    return index;
+}
