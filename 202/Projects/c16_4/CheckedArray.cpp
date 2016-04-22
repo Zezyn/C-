@@ -4,6 +4,7 @@
 #include "CheckedArray.h"
 
 using namespace std;
+
 //Constructor
 CheckedArray::CheckedArray() { 
     arrayPtr array;
