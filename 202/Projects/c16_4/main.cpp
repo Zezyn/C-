@@ -12,10 +12,20 @@
 
 using namespace std;
 
+void use_array() throw (ArrayOutOfRangeError) {
+    CheckedArray A(size);//<-pass it the size
+    //A[100] = 4; //this should throw an exception in your code after you comment it out.
+    std::cout << r << std::endl; 
+}
+
 int main() {
-try { CheckedArray A; }
+    std::ofstream log("logfile.txt");
+    //CheckedArray A;
+try { use_array(); }
 catch(const ArrayOutOfRangeError e) 
-    { /*e.what();*/ } //e.what doesn't compile
+    { std::cout << "Error in program, check the log file" << std::endl; log << e; }
+    //{ /*e.what();*/ } //e.what doesn't compile
 
     return 0;
 }
+

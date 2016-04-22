@@ -17,7 +17,8 @@ char & CheckedArray::operator[] (int index) {
     else if (index == 2) { /*return test;*/ }
     else { 
         cout << "Illegal index value.\n"; //Throw error here
-        exit(1); 
+        //exit(1); 
+        //throw ArrayOutOfRangeError(); //Doesn't compile with this line
     }
 } //End Overloading
 

@@ -1,5 +1,7 @@
 #include "ArrayOutOfRangeError.h"
 
-std::string ArrayOutOfRangeError::what() { return message; }
-
+std::ostream& operator<<(std::ostream& o,const ArrayOutOfRangeError& d) {
+    o << d.message << std::endl;
+    return o;
+}
 

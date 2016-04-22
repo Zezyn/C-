@@ -1,0 +1,6 @@
+#ifndef SOMESTRANGEERROR_H
+#define SOMESTRANGEERROR_H
+
+
+
+#endif

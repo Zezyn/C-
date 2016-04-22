@@ -5,8 +5,8 @@
 
 class ArrayOutOfRangeError {
     public:
-        ArrayOutOfRangeError(std::string msg):message(msg){};
-        std::string what();
+        ArrayOutOfRangeError(std::string m):message(m){};
+        //friend std::ostream& operator<<(std::ostream&,const ArrayOutOfRangeError&);
     private:
         std::string message;
 };
