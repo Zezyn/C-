@@ -11,7 +11,7 @@ class CheckedArray {
     private:
         typedef int* arrayPtr; //pointer to dynamic array
         const int SIZE = 4; //Size of array
-        int index; //Index of array
+        int i; //Index of array
 };
 
 #endif

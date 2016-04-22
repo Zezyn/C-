@@ -23,6 +23,6 @@ char & CheckedArray::operator[] (int index) {
 
 int CheckedArray::get_index() {
     cout << "Enter the index number to lookup -> ";
-    cin >> index;
-    return index;
+    cin >> i;
+    return i;
 }

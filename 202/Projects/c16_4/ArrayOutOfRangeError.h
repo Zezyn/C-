@@ -5,9 +5,10 @@
 
 class ArrayOutOfRangeError {
     public:
-        ArrayOutOfRangeError(string msg):message(msg){};
+        ArrayOutOfRangeError(std::string msg):message(msg){};
+        std::string what();
     private:
-        string message;
+        std::string message;
 };
 
 #endif
