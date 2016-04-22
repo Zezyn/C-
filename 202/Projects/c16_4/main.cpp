@@ -8,11 +8,14 @@
 */
 #include <iostream>
 #include "CheckedArray.h"
+#include "ArrayOutOfRangeError.h"
+
 using namespace std;
 
 int main() {
-
-    CheckedArray A;
+try { CheckedArray A; }
+catch(const ArrayOutOfRangeError e) 
+    { e.what(); }
 
     return 0;
 }
