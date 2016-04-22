@@ -15,7 +15,7 @@ using namespace std;
 int main() {
 try { CheckedArray A; }
 catch(const ArrayOutOfRangeError e) 
-    { e.what(); }
+    { /*e.what();*/ } //e.what doesn't compile
 
     return 0;
 }
