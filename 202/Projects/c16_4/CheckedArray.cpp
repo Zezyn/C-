@@ -6,11 +6,11 @@
 using namespace std;
 
 CheckedArray::CheckedArray() {
-    
+     
     cout << "Enter the amount of numbers you wish to enter: ";
     cin >> size;
     
-    if(! (isdigit(size))) { cout << "This is not a integer!" << endl; /*throw add errorclass here*/  }
+    if(cin.fail()) { cout << "This is not a integer!" << endl; /*throw add errorclass here*/  }
     
     arrayPtr a;
     a = new int[size];

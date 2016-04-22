@@ -3,14 +3,12 @@
 #ifndef CHECKEDARRAY_H
 #define CHECKEDARRAY_H
 
-#include <string>
-
 class CheckedArray {
     public:
         CheckedArray();
     private:
         typedef int* arrayPtr;
-        string size;
+        int size;
 };
 
 #endif
