@@ -1,6 +1,7 @@
 /*
     Filename: main.cpp
     Problem:The Array gives me the address instead of the value
+            Unable to get overloaded << to work.
     Author: Martin Hernandez 
     Email: 7607920511m.h@gmail.com
     Date: 04/21/2016
