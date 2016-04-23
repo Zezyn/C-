@@ -6,12 +6,12 @@ struct StackFrame {
     StackFrame *link;
 };
 
-typedef StackFrame *StackframePtr;
+typedef StackFrame *StackFramePtr;
 
 class Stack {
     public:
         Stack(); //Initializes empty stack
-        Stack(const Stack* a_stack); //Copy Constructor
+        Stack(const Stack& a_stack); //Copy Constructor
         ~Stack(); //Destroy stack and return memory
         void push(char the_symbol); //Add to stack
         char pop(); //Pop off stack

@@ -14,7 +14,7 @@ Stack::Stack(const Stack& a_stack) {
 
         //First node filled with data, new nodes after first
         end = new StackFrame;
-        end->date = temp->data;
+        end->data = temp->data;
         top = end;
 
         temp - temp->link;
@@ -44,7 +44,7 @@ void Stack::push(char symbol) {
 
 char Stack::pop() {
 
-    if(empty()) { throw Error(); exit(1); } //THROWING EXCEPTION HERE 
+    if(empty()) { /*throw Error();*/} //THROWING EXCEPTION HERE 
                         
     char result = top->data;
     StackFramePtr tempPtr;
