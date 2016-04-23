@@ -1,7 +1,8 @@
 
 #include <iostream>
-#include <stdlib.h>
 #include "CheckedArray.h"
+#include "ArrayOutOfrangeError.h"
+#include "SomeStrangeError.h"
 
 using namespace std;
 
@@ -9,17 +10,15 @@ using namespace std;
 CheckedArray::CheckedArray() { 
     arrayPtr array;
     array = new int[SIZE];
+    for(int i=0;i<SIZE;i++) { array[i] = i; }
 } //End Constructor
 
 //Overloading []
-char & CheckedArray::operator[] (int index) {
-    if (index == 1) { /*return test;*/ }
-    else if (index == 2) { /*return test;*/ }
-    else { 
-        cout << "Illegal index value.\n"; //Throw error here
-        //exit(1); 
-        //throw ArrayOutOfRangeError(); //Doesn't compile with this line
-    }
+int & CheckedArray::operator[] (int index) {
+
+    if (index > 0 && index <= SIZE) { return array[index]; }
+    else { throw SomeStrangeError(); }
+                     
 } //End Overloading
 
 int CheckedArray::get_index() {
@@ -27,3 +26,10 @@ int CheckedArray::get_index() {
     cin >> i;
     return i;
 }
+
+std::ostream& operator<<(std::ostream& o,const CheckedArray& r) {
+    o << "Index of: " << r.SIZE << "Value of Index: " << r.array[r.SIZE];
+    return o;
+}
+
+
