@@ -14,9 +14,9 @@
 using namespace std;
 
 void use_array() throw(ArrayOutOfRangeError) {
-    //CheckedArray A(SIZE);//<-pass it the size
+    CheckedArray A;//<-pass it the size
     //A[100] = 4; //this should throw an exception in your code after you comment it out.
-    //std::cout << i << std::endl; 
+    std::cout << A[1] << std::endl; 
 }
 
 int main() {
