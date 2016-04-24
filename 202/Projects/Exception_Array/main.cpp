@@ -25,7 +25,7 @@ int main() {
 
     try { use_array(); }
     catch(const ArrayOutOfRangeError e) 
-        { std::cout << "Error in program, check the log file" ; }
+        { std::cout << "\nIndex out of Range! Error in program!" ; }
         
     return 0;
 }
