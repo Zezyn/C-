@@ -7,8 +7,7 @@ class CheckedArray {
     public:
         CheckedArray(); //Constructor
         int get_index(); //Gets index from user
-        int& operator[] (int index); //Overloading []
-        friend std::ostream& operator<<(std::ostream& o, const CheckedArray& r);
+        int operator[] (int index); //Overloading []
     private:
         typedef int* arrayPtr; //pointer to dynamic array
         const int SIZE = 4; //Size of array

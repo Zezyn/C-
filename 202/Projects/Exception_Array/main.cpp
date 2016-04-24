@@ -1,7 +1,6 @@
 /*
     Filename: main.cpp
     Problem:The Array gives me the address instead of the value
-            Unable to get overloaded << to work.
     Author: Martin Hernandez 
     Email: 7607920511m.h@gmail.com
     Date: 04/21/2016
@@ -15,7 +14,7 @@
 using namespace std;
 
 void use_array() throw(ArrayOutOfRangeError) {
-    CheckedArray A;//<-pass it the size
+    CheckedArray A;
     int i = A.get_index(); //Get index from user
     //A[100] = 4; //Should throw exception TEST LINE
     std::cout << "Value of index: " << i << " is " 

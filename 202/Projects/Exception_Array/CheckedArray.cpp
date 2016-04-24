@@ -10,7 +10,7 @@ CheckedArray::CheckedArray() {
 } //End Constructor
 
 //Overloading []
-int & CheckedArray::operator[] (int index) {
+int CheckedArray::operator[] (int index) {
 
     if (index > 0 && index <= SIZE) { return array[index]; }
     else { throw SomeStrangeError(); }
@@ -21,9 +21,4 @@ int CheckedArray::get_index() {
     std::cout << "Enter the index number to lookup -> ";
     std::cin >> i;
     return i;
-}
-
-std::ostream& operator<<(std::ostream& o,const CheckedArray& r) {
-    o << "Index of: " << r.SIZE << "Value of Index: " << r.array[r.SIZE];
-    return o;
 }
