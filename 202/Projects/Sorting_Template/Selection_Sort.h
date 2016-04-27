@@ -7,7 +7,7 @@ class Sort {
     public:
         Sort();
         //void sort();
-        void swap();
+        void swap(int&, int&);
     private:
         int *dArray;
 };
