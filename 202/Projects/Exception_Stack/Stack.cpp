@@ -44,7 +44,7 @@ void Stack::push(char symbol) {
 
 char Stack::pop() {
 
-    if(empty()) { /*throw Error();*/} //THROWING EXCEPTION HERE 
+    if(empty()) { /*Error()*/ }   
                         
     char result = top->data;
     StackFramePtr tempPtr;
