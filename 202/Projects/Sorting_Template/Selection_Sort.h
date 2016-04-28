@@ -11,5 +11,6 @@ class Sort {
         void print_array();
     private:
         int *dArray;
+        const int aSIZE = 10;
 };
 #endif

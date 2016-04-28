@@ -5,8 +5,8 @@ using namespace std;
 
 Sort::Sort() { //Constructor builds and fills array
     int temp = 100;
-    dArray = new int [10];
-    for(int i=0;i<10;i++) {
+    dArray = new int [aSIZE];
+    for(int i=0;i<aSIZE;i++) {
         dArray[i] = temp;
         temp = temp-10;
     }
@@ -25,7 +25,7 @@ void Sort::swap(int& a, int& b) {
 }
 
 void Sort::print_array() { //Prints the array
-    for(int i;i<10;i++) {
+    for(int i;i<aSIZE;i++) {
         std::cout << dArray[i] << " "; 
     }
 }
