@@ -6,8 +6,9 @@
 class Sort {
     public:
         Sort();
-        //void sort();
+        void sorting();
         void swap(int&, int&);
+        void print_array();
     private:
         int *dArray;
 };

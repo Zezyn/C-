@@ -9,14 +9,23 @@ Sort::Sort() { //Constructor builds and fills array
     for(int i=0;i<10;i++) {
         dArray[i] = temp;
         temp = temp-10;
-        std::cout << "Test Line of Array: " << dArray[i] << " "; 
-        //Test line for array
     }
 }
 
-//void Sort::Sort() {}
+void Sort::sorting() {
+    swap(dArray[0], dArray[9]);
+    print_array();
+}
 
 //Sort() Takes two inputs and swaps them returning by reference
 void Sort::swap(int& a, int& b) { 
+    int temp = a;
+    a = b;
+    b = temp;
+}
 
+void Sort::print_array() { //Prints the array
+    for(int i;i<10;i++) {
+        std::cout << dArray[i] << " "; 
+    }
 }

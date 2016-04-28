@@ -15,7 +15,9 @@ using namespace std;
 int main() {
 
     Sort s;
+    s.print_array();
 
-return 0;
+    return 0;
 
 }
+
