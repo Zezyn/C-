@@ -17,8 +17,8 @@ int main( )
         t.push(next);
         cin.get(next);
     }
-*/
-/*    Stack s;
+
+    Stack s;
     char next, ans;
 
     do {
@@ -27,7 +27,7 @@ int main( )
         while (next != '\n') {
             s.push(next);
             cin.get(next);
-        }/*
+        }
 
         cout << "Written backward that is: ";
         while ( ! s.empty( ) )
