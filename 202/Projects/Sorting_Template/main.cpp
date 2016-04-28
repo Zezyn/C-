@@ -16,8 +16,7 @@ int main() {
 
     Sort s;
     s.sorting();
-    s.print_array();
-
+    s.print_array(); //Alternative to not being able to use function
     return 0;
 
 }
