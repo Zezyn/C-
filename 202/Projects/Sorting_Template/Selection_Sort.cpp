@@ -11,14 +11,17 @@ Sort::Sort() { //Constructor builds and fills array
     for(int i=0;i<aSIZE;i++) {
         dArray[i] = temp;
         temp = temp-10;
-    }
+    }       
 }
 
 void Sort::sorting() { //Sorts the array and sends to print
+    int first;
     for(int i;i<aSIZE;i++) {
+        first = 0;
         for(int j;j<aSIZE;j++) {
-            if(dArray[i] < dArray[j]) { swap(dArray[i], dArray[j]); }
+            if(dArray[i] < dArray[first]) { first = j; }
         }
+    swap(dArray[i], dArray[first]); 
     }
     print_array(); //*****This isn't working or kicking out an error*****
 }
