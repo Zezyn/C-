@@ -6,21 +6,20 @@ using namespace std;
 
 Sort::Sort() { //Constructor builds and fills array
     int temp = 100;
-    dArray = new int [aSIZE];
-    for(int i=0;i<aSIZE;i++) {
-        dArray[i] = temp;
-        temp = temp-10;
-    }       
+    dArray = new int [aSIZE] {4,5,3,6,2,7,1,8,9,0};
 }
 
 void Sort::sorting() { //Sorts the array and sends to print
-    int first;
-    for(int i;i<aSIZE;i++) {
-        first = 0;
-        for(int j;j<(aSIZE+1);j++) {
-            if(dArray[i] < dArray[first]) { first = j; }
+    for (int i = 0 ; i < aSIZE - 1 ; i++) {
+        int min = i;
+        for (int j = i + 1 ; j < aSIZE ; j++) {
+            if (dArray[j] < dArray[min]) {
+                min = j;
+            }
         }
-    swap(dArray[i], dArray[first]); 
+        if (min != i) {
+            swap(dArray[min], dArray[i]); 
+        }
     }
     print_array(); //*****This isn't working or kicking out an error*****
 }
@@ -33,7 +32,8 @@ void Sort::swap(int& a, int& b) {
 }
 
 void Sort::print_array() { //Prints the array
-    for(int i;i<aSIZE;i++) {
+    for(int i=0;i<aSIZE;i++) {
         std::cout << dArray[i] << " "; 
     }
+    std::cout << endl;
 }
