@@ -15,7 +15,6 @@ Sort::Sort() { //Constructor builds and fills array
 
 void Sort::sorting() { //Sorts the array and sends to print
     int first;
-    int small;
     for(int i;i<aSIZE;i++) {
         first = 0;
         for(int j;j<(aSIZE+1);j++) {
