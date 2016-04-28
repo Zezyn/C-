@@ -1,6 +1,8 @@
 // Created by Martin Hernandez
+
 #include "Selection_Sort.h"
 #include "iostream"
+
 using namespace std;
 
 Sort::Sort() { //Constructor builds and fills array
@@ -12,9 +14,13 @@ Sort::Sort() { //Constructor builds and fills array
     }
 }
 
-void Sort::sorting() {
-    swap(dArray[0], dArray[9]);
-    print_array();
+void Sort::sorting() { //Sorts the array and sends to print
+    for(int i;i<aSIZE;i++) {
+        for(int j;j<aSIZE;j++) {
+            if(dArray[i] < dArray[j]) { swap(dArray[i], dArray[j]); }
+        }
+    }
+    print_array(); //*****This isn't working or kicking out an error*****
 }
 
 //Sort() Takes two inputs and swaps them returning by reference

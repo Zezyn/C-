@@ -4,7 +4,7 @@ Problem:
 Author: Martin Hernandez
 Email: 7607920511m.h@gmail.com
 Date: 04/27/2016
-Description:
+Description: Selection Sort utility
 */
 
 #include <iostream>
@@ -16,8 +16,8 @@ int main() {
 
     Sort s;
     s.sorting();
+    s.print_array();
 
     return 0;
 
 }
-

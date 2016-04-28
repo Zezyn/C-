@@ -5,10 +5,10 @@
 
 class Sort {
     public:
-        Sort();
-        void sorting();
-        void swap(int&, int&);
-        void print_array();
+        Sort(); //Construct array
+        void sorting(); //Sorts array
+        void swap(int&, int&); //Swaps for sorting
+        void print_array(); //Prints array
     private:
         int *dArray;
         const int aSIZE = 10;
