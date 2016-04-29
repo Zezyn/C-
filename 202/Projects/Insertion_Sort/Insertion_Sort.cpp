@@ -1,6 +1,6 @@
 // Created by Martin Hernandez
 
-#include "Selection_Sort.h"
+#include "Insertion_Sort.h"
 #include <iostream>
 using namespace std;
 
@@ -9,6 +9,21 @@ Sort::Sort() { //Constructor builds and fills array
     dArray = new int [aSIZE] {4,5,3,6,2,7,1,8,9,0};
 }
 
+void Sort::sorting() { //Insertion Sort
+    int j, temp;
+    for (int i = 0; i < aSIZE; i++) {
+        j = i;
+        while (j > 0 && dArray[j] < dArray[j-1]) { 
+            temp = dArray[j];
+            dArray[j] = dArray[j-1];
+            dArray[j-1] = temp;
+            j--;
+        }
+    }
+    print_array();
+}
+
+/* Selection Sort
 void Sort::sorting() { //Sorts the array and sends to print
     for (int i = 0 ; i < aSIZE - 1 ; i++) {
         int min = i;
@@ -21,10 +36,11 @@ void Sort::sorting() { //Sorts the array and sends to print
             swap(dArray[min], dArray[i]); 
         }
     }
-    print_array(); //*****This isn't working or kicking out an error*****
+    print_array(); 
 }
+*/
 
-//Sort() Takes two inputs and swaps them returning by reference
+//swap() Takes two inputs and swaps them returning by reference
 void Sort::swap(int& a, int& b) { 
     int temp = a;
     a = b;

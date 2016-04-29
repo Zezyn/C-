@@ -1,7 +1,7 @@
 /* Created by Martin Hernandez */
 
-#ifndef SELECTION_SORT_H
-#define SELECTION_SORT_H
+#ifndef INSERTION_SORT_H
+#define INSERTION_SORT_H
 
 class Sort {
     public:
