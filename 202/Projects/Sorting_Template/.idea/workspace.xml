@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Sorting_Template" targetName="Sorting_Template" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41b21a2e-3ea0-4922-9e10-8269e5bdd8c4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template_Queue.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Template_Queue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/Pointer/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/Pointer/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/Structures/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/Structures/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/arrays/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/arrays/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/chararray/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/chararray/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/cstring/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/cstring/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/cstring/getline" afterPath="$PROJECT_DIR$/../../../201/InClass/cstring/getline" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/hash/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/hash/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/InClass/rowsncol/a.out" afterPath="$PROJECT_DIR$/../../../201/InClass/rowsncol/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/Projects/a.out" afterPath="$PROJECT_DIR$/../../../201/Projects/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../201/Testing/a.out" afterPath="$PROJECT_DIR$/../../../201/Testing/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Example/a.out" afterPath="$PROJECT_DIR$/../../Example/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Pointers/a.out" afterPath="$PROJECT_DIR$/../../Pointers/a.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Insertion_Sort/cpp.sh" afterPath="$PROJECT_DIR$/../Insertion_Sort/cpp.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp.sh" afterPath="$PROJECT_DIR$/cpp.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-02.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-02.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-03.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-03.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-04.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-04.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-05.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-05.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-06.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-06.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-08.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-08.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/08-09.cpp" afterPath="$PROJECT_DIR$/../../../Examples/08-09.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/2DArray.cpp" afterPath="$PROJECT_DIR$/../../../Examples/2DArray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/2DDynArray.cpp" afterPath="$PROJECT_DIR$/../../../Examples/2DDynArray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/CDAccount.cpp" afterPath="$PROJECT_DIR$/../../../Examples/CDAccount.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/CDAccount_structure.cpp" afterPath="$PROJECT_DIR$/../../../Examples/CDAccount_structure.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/DayOfYear.cpp" afterPath="$PROJECT_DIR$/../../../Examples/DayOfYear.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/Derived.cpp" afterPath="$PROJECT_DIR$/../../../Examples/Derived.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/Dynamic_Array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/Dynamic_Array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/Month.cpp" afterPath="$PROJECT_DIR$/../../../Examples/Month.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/PointClass.cpp" afterPath="$PROJECT_DIR$/../../../Examples/PointClass.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/Points.cpp" afterPath="$PROJECT_DIR$/../../../Examples/Points.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/add.cpp" afterPath="$PROJECT_DIR$/../../../Examples/add.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/address.cpp" afterPath="$PROJECT_DIR$/../../../Examples/address.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/append.cpp" afterPath="$PROJECT_DIR$/../../../Examples/append.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/append_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/append_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/array_file.cpp" afterPath="$PROJECT_DIR$/../../../Examples/array_file.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/array_in_struct.cpp" afterPath="$PROJECT_DIR$/../../../Examples/array_in_struct.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/array_return.cpp" afterPath="$PROJECT_DIR$/../../../Examples/array_return.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/arrayindexing.cpp" afterPath="$PROJECT_DIR$/../../../Examples/arrayindexing.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/ascii.cpp" afterPath="$PROJECT_DIR$/../../../Examples/ascii.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/askagain.cpp" afterPath="$PROJECT_DIR$/../../../Examples/askagain.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/atoi_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/atoi_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/average.cpp" afterPath="$PROJECT_DIR$/../../../Examples/average.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/babylonian.cpp" afterPath="$PROJECT_DIR$/../../../Examples/babylonian.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/boolean.cpp" afterPath="$PROJECT_DIR$/../../../Examples/boolean.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/bubbleSort.cpp" afterPath="$PROJECT_DIR$/../../../Examples/bubbleSort.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/buildstring.cpp" afterPath="$PROJECT_DIR$/../../../Examples/buildstring.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/callref.cpp" afterPath="$PROJECT_DIR$/../../../Examples/callref.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/celsiustofahren.cpp" afterPath="$PROJECT_DIR$/../../../Examples/celsiustofahren.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/change_string.cpp" afterPath="$PROJECT_DIR$/../../../Examples/change_string.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/char.cpp" afterPath="$PROJECT_DIR$/../../../Examples/char.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/char_array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/char_array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/char_pointer.cpp" afterPath="$PROJECT_DIR$/../../../Examples/char_pointer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/character_array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/character_array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/chartoint.cpp" afterPath="$PROJECT_DIR$/../../../Examples/chartoint.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/check_range.cpp" afterPath="$PROJECT_DIR$/../../../Examples/check_range.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/chopfloat.cpp" afterPath="$PROJECT_DIR$/../../../Examples/chopfloat.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/christmas.cpp" afterPath="$PROJECT_DIR$/../../../Examples/christmas.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/cin.cout.cpp" afterPath="$PROJECT_DIR$/../../../Examples/cin.cout.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/colon_input.cpp" afterPath="$PROJECT_DIR$/../../../Examples/colon_input.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/count_lines.cpp" afterPath="$PROJECT_DIR$/../../../Examples/count_lines.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/crash_vector.cpp" afterPath="$PROJECT_DIR$/../../../Examples/crash_vector.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/cstringinput.cpp" afterPath="$PROJECT_DIR$/../../../Examples/cstringinput.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/cstringinputfunc.cpp" afterPath="$PROJECT_DIR$/../../../Examples/cstringinputfunc.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/dayinput_char.cpp" afterPath="$PROJECT_DIR$/../../../Examples/dayinput_char.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/delete.cpp" afterPath="$PROJECT_DIR$/../../../Examples/delete.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/deleterepeats.cpp" afterPath="$PROJECT_DIR$/../../../Examples/deleterepeats.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/doubleexample.cpp" afterPath="$PROJECT_DIR$/../../../Examples/doubleexample.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/dowhile.cpp" afterPath="$PROJECT_DIR$/../../../Examples/dowhile.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/dynamicarray.cpp" afterPath="$PROJECT_DIR$/../../../Examples/dynamicarray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/dynaptr.cpp" afterPath="$PROJECT_DIR$/../../../Examples/dynaptr.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/ex9.cpp" afterPath="$PROJECT_DIR$/../../../Examples/ex9.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/exercise2.cpp" afterPath="$PROJECT_DIR$/../../../Examples/exercise2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/exercise5.cpp" afterPath="$PROJECT_DIR$/../../../Examples/exercise5.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/exit_example.cpp" afterPath="$PROJECT_DIR$/../../../Examples/exit_example.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/exit_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/exit_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/f_2_c.cpp" afterPath="$PROJECT_DIR$/../../../Examples/f_2_c.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/f_2_c.s" afterPath="$PROJECT_DIR$/../../../Examples/f_2_c.s" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/fail_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/fail_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/feet_inches.cpp" afterPath="$PROJECT_DIR$/../../../Examples/feet_inches.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/file_string_input.cpp" afterPath="$PROJECT_DIR$/../../../Examples/file_string_input.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/fileinput.cpp" afterPath="$PROJECT_DIR$/../../../Examples/fileinput.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/fillarray.cpp" afterPath="$PROJECT_DIR$/../../../Examples/fillarray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/find_average.cpp" afterPath="$PROJECT_DIR$/../../../Examples/find_average.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/find_number.cpp" afterPath="$PROJECT_DIR$/../../../Examples/find_number.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/forloop.cpp" afterPath="$PROJECT_DIR$/../../../Examples/forloop.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/format.cpp" afterPath="$PROJECT_DIR$/../../../Examples/format.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/fstream_example.cpp" afterPath="$PROJECT_DIR$/../../../Examples/fstream_example.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/functionDemo.cpp" afterPath="$PROJECT_DIR$/../../../Examples/functionDemo.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/getexample.cpp" afterPath="$PROJECT_DIR$/../../../Examples/getexample.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/getline.cpp" afterPath="$PROJECT_DIR$/../../../Examples/getline.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/getlinetest.cpp" afterPath="$PROJECT_DIR$/../../../Examples/getlinetest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/getnumber.cpp" afterPath="$PROJECT_DIR$/../../../Examples/getnumber.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/grades.cpp" afterPath="$PROJECT_DIR$/../../../Examples/grades.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/guess_game.cpp" afterPath="$PROJECT_DIR$/../../../Examples/guess_game.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/hilow.cpp" afterPath="$PROJECT_DIR$/../../../Examples/hilow.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/hourinput.cpp" afterPath="$PROJECT_DIR$/../../../Examples/hourinput.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/hw1_ex5.cpp" afterPath="$PROJECT_DIR$/../../../Examples/hw1_ex5.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/hw_2_7.cpp" afterPath="$PROJECT_DIR$/../../../Examples/hw_2_7.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/ifexample.cpp" afterPath="$PROJECT_DIR$/../../../Examples/ifexample.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/infinite.cpp" afterPath="$PROJECT_DIR$/../../../Examples/infinite.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/init_array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/init_array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/input.cpp" afterPath="$PROJECT_DIR$/../../../Examples/input.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/input2.cpp" afterPath="$PROJECT_DIR$/../../../Examples/input2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/input_ref.cpp" afterPath="$PROJECT_DIR$/../../../Examples/input_ref.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/intdiv.cpp" afterPath="$PROJECT_DIR$/../../../Examples/intdiv.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/ioman2.cpp" afterPath="$PROJECT_DIR$/../../../Examples/ioman2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/ioman_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/ioman_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/labs.cpp" afterPath="$PROJECT_DIR$/../../../Examples/labs.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/leapyear.cpp" afterPath="$PROJECT_DIR$/../../../Examples/leapyear.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/life_example.cpp" afterPath="$PROJECT_DIR$/../../../Examples/life_example.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/menu.cpp" afterPath="$PROJECT_DIR$/../../../Examples/menu.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/mouse.cpp" afterPath="$PROJECT_DIR$/../../../Examples/mouse.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/multi_array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/multi_array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/multipoint.cpp" afterPath="$PROJECT_DIR$/../../../Examples/multipoint.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/mystrcmp.cpp" afterPath="$PROJECT_DIR$/../../../Examples/mystrcmp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/numberlist.cpp" afterPath="$PROJECT_DIR$/../../../Examples/numberlist.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/onemore.cpp" afterPath="$PROJECT_DIR$/../../../Examples/onemore.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/parse.cpp" afterPath="$PROJECT_DIR$/../../../Examples/parse.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/passRef.cpp" afterPath="$PROJECT_DIR$/../../../Examples/passRef.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/passing_an_array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/passing_an_array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/peas.cpp" afterPath="$PROJECT_DIR$/../../../Examples/peas.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/pizza.cpp" afterPath="$PROJECT_DIR$/../../../Examples/pizza.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/pointers.cpp" afterPath="$PROJECT_DIR$/../../../Examples/pointers.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/pointers2.cpp" afterPath="$PROJECT_DIR$/../../../Examples/pointers2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/pointers_example.cpp" afterPath="$PROJECT_DIR$/../../../Examples/pointers_example.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/pow_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/pow_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/predefinedfunctions.cpp" afterPath="$PROJECT_DIR$/../../../Examples/predefinedfunctions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/predefinedfunctions2.cpp" afterPath="$PROJECT_DIR$/../../../Examples/predefinedfunctions2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/print_binary.cpp" afterPath="$PROJECT_DIR$/../../../Examples/print_binary.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/print_vars.cpp" afterPath="$PROJECT_DIR$/../../../Examples/print_vars.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/printarray.cpp" afterPath="$PROJECT_DIR$/../../../Examples/printarray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/printbin.cpp" afterPath="$PROJECT_DIR$/../../../Examples/printbin.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/rainfall.cpp" afterPath="$PROJECT_DIR$/../../../Examples/rainfall.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/rand_while.cpp" afterPath="$PROJECT_DIR$/../../../Examples/rand_while.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/random.cpp" afterPath="$PROJECT_DIR$/../../../Examples/random.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/random_generation.cpp" afterPath="$PROJECT_DIR$/../../../Examples/random_generation.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/random_number_no_function.cpp" afterPath="$PROJECT_DIR$/../../../Examples/random_number_no_function.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/read_address.cpp" afterPath="$PROJECT_DIR$/../../../Examples/read_address.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/read_char.cpp" afterPath="$PROJECT_DIR$/../../../Examples/read_char.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/read_comment.cpp" afterPath="$PROJECT_DIR$/../../../Examples/read_comment.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/read_data_while.cpp" afterPath="$PROJECT_DIR$/../../../Examples/read_data_while.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/readpassword.cpp" afterPath="$PROJECT_DIR$/../../../Examples/readpassword.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/repeat_calc.cpp" afterPath="$PROJECT_DIR$/../../../Examples/repeat_calc.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/rps.cpp" afterPath="$PROJECT_DIR$/../../../Examples/rps.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/scope.cpp" afterPath="$PROJECT_DIR$/../../../Examples/scope.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/selection_sort.cpp" afterPath="$PROJECT_DIR$/../../../Examples/selection_sort.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/seq_search.cpp" afterPath="$PROJECT_DIR$/../../../Examples/seq_search.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/shift.cpp" afterPath="$PROJECT_DIR$/../../../Examples/shift.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/simpladdress.cpp" afterPath="$PROJECT_DIR$/../../../Examples/simpladdress.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/simplearray.cpp" afterPath="$PROJECT_DIR$/../../../Examples/simplearray.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/sizeof.cpp" afterPath="$PROJECT_DIR$/../../../Examples/sizeof.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/slope_intercept.cpp" afterPath="$PROJECT_DIR$/../../../Examples/slope_intercept.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/sort.cpp" afterPath="$PROJECT_DIR$/../../../Examples/sort.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/sort_search.cpp" afterPath="$PROJECT_DIR$/../../../Examples/sort_search.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/sqrt_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/sqrt_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/strcpy_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/strcpy_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/streamargs.cpp" afterPath="$PROJECT_DIR$/../../../Examples/streamargs.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/string_at_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/string_at_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/string_functions.cpp" afterPath="$PROJECT_DIR$/../../../Examples/string_functions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/string_itr.cpp" afterPath="$PROJECT_DIR$/../../../Examples/string_itr.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/string_like_array.cpp" afterPath="$PROJECT_DIR$/../../../Examples/string_like_array.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/string_object.cpp" afterPath="$PROJECT_DIR$/../../../Examples/string_object.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/stringcomp.cpp" afterPath="$PROJECT_DIR$/../../../Examples/stringcomp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/strings.cpp" afterPath="$PROJECT_DIR$/../../../Examples/strings.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/stringtest.cpp" afterPath="$PROJECT_DIR$/../../../Examples/stringtest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/svgmaker.cpp" afterPath="$PROJECT_DIR$/../../../Examples/svgmaker.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/swap.cpp" afterPath="$PROJECT_DIR$/../../../Examples/swap.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/switch.cpp" afterPath="$PROJECT_DIR$/../../../Examples/switch.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/template.cpp" afterPath="$PROJECT_DIR$/../../../Examples/template.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/template2.cpp" afterPath="$PROJECT_DIR$/../../../Examples/template2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/test1.cpp" afterPath="$PROJECT_DIR$/../../../Examples/test1.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/test_cd.cpp" afterPath="$PROJECT_DIR$/../../../Examples/test_cd.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/tictactoeboard.cpp" afterPath="$PROJECT_DIR$/../../../Examples/tictactoeboard.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/tometric.cpp" afterPath="$PROJECT_DIR$/../../../Examples/tometric.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/toupper.cpp" afterPath="$PROJECT_DIR$/../../../Examples/toupper.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/trig.cpp" afterPath="$PROJECT_DIR$/../../../Examples/trig.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/types.cpp" afterPath="$PROJECT_DIR$/../../../Examples/types.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/unsigned.cpp" afterPath="$PROJECT_DIR$/../../../Examples/unsigned.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/userdefinedFunction.cpp" afterPath="$PROJECT_DIR$/../../../Examples/userdefinedFunction.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/userstringinput.cpp" afterPath="$PROJECT_DIR$/../../../Examples/userstringinput.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/varnames_for_function.cpp" afterPath="$PROJECT_DIR$/../../../Examples/varnames_for_function.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/vector.cpp" afterPath="$PROJECT_DIR$/../../../Examples/vector.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/vector_of_vectors.cpp" afterPath="$PROJECT_DIR$/../../../Examples/vector_of_vectors.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/vector_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/vector_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/voidexample.cpp" afterPath="$PROJECT_DIR$/../../../Examples/voidexample.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/while.cpp" afterPath="$PROJECT_DIR$/../../../Examples/while.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/whileexample.cpp" afterPath="$PROJECT_DIR$/../../../Examples/whileexample.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/width_test.cpp" afterPath="$PROJECT_DIR$/../../../Examples/width_test.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/widthtest.cpp" afterPath="$PROJECT_DIR$/../../../Examples/widthtest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/write_address.cpp" afterPath="$PROJECT_DIR$/../../../Examples/write_address.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/write_random.cpp" afterPath="$PROJECT_DIR$/../../../Examples/write_random.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/xorexample.cpp" afterPath="$PROJECT_DIR$/../../../Examples/xorexample.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/xorswap.cpp" afterPath="$PROJECT_DIR$/../../../Examples/xorswap.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Examples/xortest.cpp" afterPath="$PROJECT_DIR$/../../../Examples/xortest.cpp" />
+    </list>
+    <ignored path="Sorting_Template.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Sorting_Template" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template_Queue.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Template_Queue.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="e#41#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template_Queue.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Template_Queue.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cpp.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cpp.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Selection_Sort.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Selection_Sort.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Selection_Sort.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Selection_Sort.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Template_Queue.h" />
+        <option value="$PROJECT_DIR$/Template_Queue.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorting_Template" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorting_Template" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorting_Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sorting_Template" TARGET_NAME="Sorting_Template" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sorting_Template" TARGET_NAME="Sorting_Template" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sorting_Template" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Sorting_Template" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sorting_Template" TARGET_NAME="Sorting_Template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sorting_Template" RUN_TARGET_NAME="Sorting_Template">
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Sorting_Template" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41b21a2e-3ea0-4922-9e10-8269e5bdd8c4" name="Default" comment="" />
+      <created>1462045555842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1462045555842</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1294" height="1087" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26580226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Selection_Sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Selection_Sort.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cpp.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template_Queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template_Queue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#41#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
