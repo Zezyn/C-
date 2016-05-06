@@ -7,8 +7,7 @@
 
 class Books {
     public:
-        void add();
-        void print();
     private:
         std::vector<std::string>* books;
+};
 #endif

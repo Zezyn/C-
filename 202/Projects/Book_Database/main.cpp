@@ -8,6 +8,7 @@ Description:
 */
 
 #include <iostream>
+#include <cstdlib>
 #include "library.h"
 #include "database.h"
 
@@ -31,14 +32,18 @@ void menu(Books& a) {
     std::cout << "1) Add Book" << endl;
     std::cout << "2) View Books (Sorted by Author)" << endl;
     std::cout << "3) Exit" << endl << endl;
+    std::cout << "Your Choice -> ";
     std::cin >> choice;
 
     switch(choice) {
-        case '1' :
+        case 1:
             //a.add();
             break;
-        case '2' :
+        case 2:
             //a.print();
+            break;
+        case 3:
+            exit(1);
             break;
     }
 }
