@@ -1,13 +1,16 @@
 #ifndef DATABASE_H
 #define DATABASE_H
 
-class database {
+#include<string>
+#include<vector>
+
+class Database {
     public:
-        void get_data();
+        void add();
     private:
-        string author;
-        string title;
-        string date;
+        std::string author;
+        std::string title;
+        std::string date;
 };
 
 #endif
