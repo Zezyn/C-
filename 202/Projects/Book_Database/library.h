@@ -2,10 +2,13 @@
 #define LIBRARY_H
 //Create a vector for books
 #include<vector>
+#include<string>
+#include"database.h"
 
-class books {
+class Books {
     public:
-        void store_books();
+        void add();
+        void print();
     private:
-        std::vector<int> books;
+        std::vector<std::string>* books;
 #endif

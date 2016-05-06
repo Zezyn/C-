@@ -6,7 +6,6 @@
 
 class Database {
     public:
-        void add();
     private:
         std::string author;
         std::string title;

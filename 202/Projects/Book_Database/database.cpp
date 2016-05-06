@@ -2,6 +2,3 @@
 #include<vector>
 #include<string>
 
-void Database::add() {
-    
-}

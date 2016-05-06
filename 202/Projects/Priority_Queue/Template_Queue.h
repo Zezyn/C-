@@ -22,6 +22,7 @@ public:
     bool empty() const; //Returns true if empty
     void add(std::string data, int priority); //Add to queue
     std::string remove(); //Removes data from the queue
+    void print();
 private:
     QueueNodePtr front; //Points to the head of a linked list
     QueueNodePtr back; //Points to the tail items added at this end

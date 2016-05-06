@@ -8,23 +8,23 @@ Description:
 */
 
 #include <iostream>
-//#include "library.h"
+#include "library.h"
 #include "database.h"
 
 using namespace std;
 
-void menu(Database&);
+void menu(Books&);
 
 int main() {
 
-    Database D;
+    Books D;
     menu(D);
 
 return 0;
 
 }
 
-void menu(Database& a) {
+void menu(Books& a) {
     int choice;
 
     std::cout << "********** Welcome to the Book Database **********" << endl << endl;
@@ -35,7 +35,10 @@ void menu(Database& a) {
 
     switch(choice) {
         case '1' :
-            a.add();
+            //a.add();
+            break;
+        case '2' :
+            //a.print();
             break;
     }
 }
