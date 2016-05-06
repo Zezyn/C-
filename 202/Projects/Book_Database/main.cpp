@@ -37,10 +37,10 @@ void menu(Books& a) {
 
     switch(choice) {
         case 1:
-            //a.add();
+            a.add();
             break;
         case 2:
-            //a.print();
+            a.print();
             break;
         case 3:
             exit(1);
