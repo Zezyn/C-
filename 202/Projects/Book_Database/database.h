@@ -6,8 +6,9 @@
 
 class Database {
     public:
-        //Database();
-    private:
+        void add();
+        void print();
+    
         std::string author;
         std::string title;
         std::string date;
