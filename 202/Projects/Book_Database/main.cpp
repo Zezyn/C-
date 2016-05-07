@@ -12,63 +12,56 @@ To sort the data, use the generic sort function from the <algorithm> library. No
 */
 
 #include <iostream>
+#include <algorithm>
 #include <cstdlib>
-#include"database.h"
+#include "database.h"
 
 using namespace std;
-
-void menu(Database&);
-void library(Database&);
-void print_library(std::vector<Database>&);
+typedef std::vector<Database> library;
+void menu(Database&, library&);
+void print_library(library&);
 
 int main() {
 
+    library books;
     Database D;
-    menu(D);
+    menu(D, books);
 
 return 0;
 
 }
 
-void menu(Database& a) {
-/*    int choice;
-
-    std::cout << "\n********** Welcome to the Book Database **********" << endl << endl;
-    std::cout << "1) Add Book" << endl;
-    std::cout << "2) View Books (Sorted by Author)" << endl;
-    std::cout << "3) Exit" << endl << endl;
-    std::cout << "Your Choice -> ";
-    std::cin >> choice;
-
-    switch(choice) {
-        case 1:
-            a.add();
-            library(a);
-            menu(a);
-            break;
-        case 2:
-            break;
-            a.print();
-            menu(a);
-        case 3:
-            exit(1);
-            break;
-    }*/ a.add(); library(a);  //a.print();
-}
-
-void library(Database& B) {
+void menu(Database& B, library& books) {
     
-    std::vector<Database> books;
-    books.push_back(B);
-    print_library(books);
-}
+    int choice;
 
-void print_library(std::vector<Database>& books) {
-    for(int i=0;i<1;i++) { 
-    std::cout << "\nBook Title:           " << books[i].title;
-    std::cout << "\nBook Author:          " << books[i].author;
-    std::cout << "\nBook Publishing Date: " << books[i].date;
-    }
-}
+    do {
+        std::cout << "\n\n********** Welcome to the Book Database **********" << endl << endl;
+        std::cout << "1) Add Book" << endl;
+        std::cout << "2) View Books (Sorted by Author)" << endl;
+        std::cout << "3) Exit" << endl << endl;
+        std::cout << "Your Choice -> ";
+        std::cin >> choice;
+
     
+        switch(choice) {
+            case 1:
+                B.add();
+                books.push_back(B);
+                break;
+            case 2:
+                print_library(books);
+                break;
+        } 
+    } while (choice != 3);
+}
 
+void print_library(library& books) {
+    
+    vector<std::string>::iterator loop;
+
+    //for(loop = books.begin();loop != books.end(); loop++) { books[loop].print(); } // Can't get this to work
+    //std::sort((books[0].author).begin(), (books[1].author).end()); //THIS NEEDS TO WORK FOR PROJECT
+
+    //for(int i=0; i < books.size(); i++) { books[i].print(); }   //THIS WORKS
+}
