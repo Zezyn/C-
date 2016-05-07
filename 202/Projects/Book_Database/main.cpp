@@ -58,10 +58,11 @@ void menu(Database& B, library& books) {
 
 void print_library(library& books) {
     
-    vector<std::string>::iterator loop;
+    //for(vector<std::string>::iterator loop=books.begin(); loop!=books.end();loop++) { books[loop].print() }
 
     //for(loop = books.begin();loop != books.end(); loop++) { books[loop].print(); } // Can't get this to work
-    //std::sort((books[0].author).begin(), (books[1].author).end()); //THIS NEEDS TO WORK FOR PROJECT
+    
+    sort(books.begin(), books.end(), [] (books a, books b) return a.author < b.author); //THIS NEEDS TO WORK FOR PROJECT
 
-    //for(int i=0; i < books.size(); i++) { books[i].print(); }   //THIS WORKS
+    for(int i=0; i < books.size(); i++) { books[i].print(); }   //THIS WORKS
 }
