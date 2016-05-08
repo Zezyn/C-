@@ -1,13 +1,19 @@
-#include<iostream>
-
-using namespace std;
-
-int main()
+int
+TemperatureList::add_temperature(double t)
 {
+	if (size < MAX_LIST_SIZE)
+		list[size++] =  t;
 
-    int a=10,b=10;
-
-    cout << (a+b) << endl;
-
-    return 0;
+   return size;
 }
+
+bool TemperatureList::full()
+{
+	 return (size == MAX_LIST_SIZE);
+}
+
+TemperatureList list_data;
+
+list_data.add_temperature(45);
+list_data.add_temperature(46);
+list_data.add_temperature(47);
