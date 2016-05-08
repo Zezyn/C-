@@ -12,11 +12,13 @@ To sort the data, use the generic sort function from the <algorithm> library. No
 */
 
 #include <iostream>
-#include <algorithm>
-#include <cstdlib>
-#include "database.h"
+#include <algorithm> //For Sort
+#include <cstdlib>  //For Exit
+#include <vector>   //For Vector
+#include "database.h"   //For Book info
 
 using namespace std;
+
 typedef std::vector<Database> library;
 void menu(Database&, library&);
 void print_library(library&);
@@ -42,8 +44,7 @@ void menu(Database& B, library& books) {
         std::cout << "3) Exit" << endl << endl;
         std::cout << "Your Choice -> ";
         std::cin >> choice;
-
-    
+        if(choice != 1 || choice != 2 || choice !=3) { std::cout << "\n\n***Invalid entry***" << endl; exit(1); }
         switch(choice) {
             case 1:
                 B.add();
@@ -58,11 +59,19 @@ void menu(Database& B, library& books) {
 
 void print_library(library& books) {
     
-    //for(vector<std::string>::iterator loop=books.begin(); loop!=books.end();loop++) { books[loop].print() }
-
-    //for(loop = books.begin();loop != books.end(); loop++) { books[loop].print(); } // Can't get this to work
+    //vector<int>::iterator p;
     
-    sort(books.begin(), books.end(), [] (books a, books b) return a.author < b.author); //THIS NEEDS TO WORK FOR PROJECT
+    auto p = books.begin();
+    int i = 0;
 
-    for(int i=0; i < books.size(); i++) { books[i].print(); }   //THIS WORKS
+    //Sort
+    std::sort(books.begin(), books.end());
+
+    //Print
+    for(p = books.begin(); p != books.end(); p++) { books[i].print(); i++; } //THIS WORKS!!!!
+    //for(int i=0; i < books.size(); i++) { books[i].print(); }   //THIS WORKS
+}
+
+bool operator < (const Database &a ,const Database &b ){
+    return a.author < b.author;
 }
