@@ -74,7 +74,7 @@ QueNodePtr Que::search(std::string find_data) {
     QueNodePtr here = front;
     if (front == NULL) return NULL;
     do {
-        if(here->name == find_data) {
+        if(here->data == find_data) {
             here = here->link;
             return here;
         }
@@ -83,3 +83,9 @@ QueNodePtr Que::search(std::string find_data) {
 
 }
  */
+
+void Queue::print() {
+     QueueNodePtr iter;
+        for(iter = front; iter != NULL; iter = iter->link)
+            { cout << endl << "Data: " << (iter->data) << " Priority: " << (iter->priority); }
+}

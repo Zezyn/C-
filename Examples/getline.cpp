@@ -1,28 +1,18 @@
 #include<iostream>
-#include<string>
-#include<fstream>
-#include<cstdlib>
+
 using namespace std;
 
 int main()
 {
+   int length;
+	cout << "Enter the length of the string: ";
+	cin >> length;
+	cin.ignore();
+	char *str = new char[length];
+	cout << "We will now try to fill the string" << endl;
+   cin.getline(str,length);
+	cout << "We are done filling the string" << endl;
+	cout << "The string is:" << str << endl;
 
-	string buffer;
-//	char filename[20];
-	ifstream tpl;
-	cout << "Enter the template name: ";
-	cin >> buffer;
-	tpl.open(buffer.c_str());
-	if(tpl.fail())
-	{
-		cout << buffer << "does not exist" << endl;
-		exit(1);
-	}
-	
-	while(! tpl.eof()) {
-		getline(tpl,buffer);
-		cout << buffer << endl;
-	}
-	
 	return 0;
 }
