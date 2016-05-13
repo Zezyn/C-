@@ -38,9 +38,7 @@ int main() {
         getline(ifs, atemp2);
         if(! atemp1.empty() && ! atemp2.empty())
         { 
-           // cout << atemp1 << endl;
-           // cout << atemp1 << " : " << atemp1.c_str() << endl;
-          database[string(atemp1.c_str())].push_back(static_cast<double>(stoi(atemp2)));
+          database[atemp1].push_back(static_cast<double>(stoi(atemp2)));
         }
     }
     //Print map
@@ -54,7 +52,6 @@ int main() {
             num=num+(*iter_b); 
         }
 
-        cout << iter_a->first.c_str();
         cout << iter_a->first << ": " << "Number of reviews: " 
         << iter_a->second.size() << ", " << "Average rating: " << (num/iter_a->second.size()) << endl;
      }
