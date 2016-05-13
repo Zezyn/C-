@@ -1,6 +1,0 @@
-val1:1,val2:2,val3:3
-val1:10,val2:20,val3:30
-val1:10,val2:20,val3:30
-val1:10,val2:20,val3:30
-val1:10,val2:20,val3:30
-val1:10,val2:20,val3:30
