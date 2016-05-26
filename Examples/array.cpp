@@ -2,27 +2,16 @@
 
 using namespace std;
 
-template<class T>
-class Array
-{
-	private:
-	  	T *ar;
-		int _size;
-
-    public:
-		Array(){};
-        Array(int size);
-		int getSize(){return _size;}
-
-};
-
-Array::Array(int size){_size = size;};	
-
-
 int main()
 {
-	Array<int> a;
-	Array<char> c;
-	Array<double> d;
-	return 0;
+
+    char ar[3][3] = {{'a','b','c'},{'d','e','f'},{'g','h','i'}};
+
+    for(int i=0;i<3;i++)
+    {
+      for(int j=0;j<3;j++)
+          cout << ar[i][j] << " " ;
+      cout << endl;
+    }
+    return 0;
 }

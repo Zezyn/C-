@@ -1,35 +1,49 @@
 #include<iostream>
-#include<string>
 #include<vector>
+#include<string>
 
-using std::cout;
-using std::cin;
-using std::cerr;
-using std::endl;
-using std::vector;
-using std::string;
+using namespace std;
+
+void printVector(vector<int>&);
+void printVector(vector<string>&);
 
 int main()
 {
 
-   vector<int> v;
+    vector<int> v(10);
 
-	v.push_back(1);
-	v.push_back(2);
-	v.push_back(3);
-	v.push_back(4);
-   vector<int>::iterator p = v.begin();
+    vector<string> vs;
+    
+    v[0] = 10;
+    v[1] = 20;
+    v[2] = 30;
+    v[3] = 40;
+    printVector(v);
 
-	while(p != v.end())
-   {
-		cout << *p << endl;
-		p++;
-	}
+    vs.push_back("It's");
+    vs.push_back("a");
+    vs.push_back("wonderful");
+    vs.push_back("world");
+    printVector(vs);
 
+    return 0;
+}
 
-   vector<string> v2;
+void printVector(vector<int>& v)
+{
+    for(int i=0;i < v.size();i++)
+    {
+        cout << v[i] << endl;
+    }
+    cout << endl;
 
+}
 
-   
-	return 0;
+void printVector(vector<string>& v)
+{
+    for(int i=0;i < v.size();i++)
+    {
+        cout << v[i] << " ";
+    }
+    cout << endl;
 }

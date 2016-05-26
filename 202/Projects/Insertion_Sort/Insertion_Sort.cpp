@@ -42,8 +42,8 @@ void Sort::sorting() { //Sorts the array and sends to print
 */
 
 //swap() Takes two inputs and swaps them returning by reference
-template<typename T> //DOESNT WORK*********
-void Sort::swap(T& a, T& b) {
+//template<typename T> //DOESNT WORK*********
+void Sort::swap(T & a, T & b) {
     T temp = a;
     a = b;
     b = temp;
