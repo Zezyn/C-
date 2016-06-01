@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../shapes/mainwindow.h"
+#include "../../hittest1/mainwindow.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[4];
-    char stringdata0[41];
+    QByteArrayData data[5];
+    char stringdata0[52];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -30,12 +30,14 @@ struct qt_meta_stringdata_MainWindow_t {
 static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "MainWindow"
-QT_MOC_LITERAL(1, 11, 14), // "editEllipseDeg"
+QT_MOC_LITERAL(1, 11, 14), // "updatePosition"
 QT_MOC_LITERAL(2, 26, 0), // ""
-QT_MOC_LITERAL(3, 27, 13) // "editRectangle"
+QT_MOC_LITERAL(3, 27, 12), // "QMouseEvent*"
+QT_MOC_LITERAL(4, 40, 11) // "updateClick"
 
     },
-    "MainWindow\0editEllipseDeg\0\0editRectangle"
+    "MainWindow\0updatePosition\0\0QMouseEvent*\0"
+    "updateClick"
 };
 #undef QT_MOC_LITERAL
 
@@ -53,12 +55,12 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   24,    2, 0x0a /* Public */,
-       3,    0,   25,    2, 0x0a /* Public */,
+       1,    1,   24,    2, 0x0a /* Public */,
+       4,    1,   27,    2, 0x0a /* Public */,
 
  // slots: parameters
-    QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 3,    2,
+    QMetaType::Void, 0x80000000 | 3,    2,
 
        0        // eod
 };
@@ -69,12 +71,11 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         MainWindow *_t = static_cast<MainWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->editEllipseDeg(); break;
-        case 1: _t->editRectangle(); break;
+        case 0: _t->updatePosition((*reinterpret_cast< QMouseEvent*(*)>(_a[1]))); break;
+        case 1: _t->updateClick((*reinterpret_cast< QMouseEvent*(*)>(_a[1]))); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
 }
 
 const QMetaObject MainWindow::staticMetaObject = {

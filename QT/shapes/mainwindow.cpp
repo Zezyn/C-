@@ -6,15 +6,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
-    scene=new QGraphicsScene(this);
-    ui->graphicsView->setScene(scene);
-
-    QPen blackPen(Qt::black);
-    blackPen.setWidth(4);
-    QBrush blueBrush(Qt::blue);
-
-    ellipse = scene->addEllipse(50,50,100,100,blackPen,blueBrush);
 }
 
 MainWindow::~MainWindow()
@@ -24,21 +15,36 @@ MainWindow::~MainWindow()
 
 void MainWindow::adjustEllipse(int h)
 {
+    scene=new QGraphicsScene(this);
+    ui->graphicsView->setScene(scene);
+
     QPen blackPen(Qt::black);
     blackPen.setWidth(4);
     QBrush blueBrush(Qt::blue);
-    ellipse->
-/*    scene = new QGraphicsScene();
-    ui->graphicsView->setScene(scene);
-    QPen pen;
-    pen.setWidth(2);
-    QBrush brush(QColor(155,150,150));
-    ellipse = scene->addEllipse(0,0,w,h,pen,brush);
-    ellipse->setFlag(QGraphicsItem::ItemIsMovable,true);
-*/}
 
-void MainWindow::updateDeg()
+    ellipse = scene->addEllipse(50,50,100,h,blackPen,blueBrush);
+}
+
+void MainWindow::editEllipseDeg()
 {
     int deg = ui->lineEdit->text().toInt();
     adjustEllipse(deg);
+}
+
+void MainWindow::editRectangle()
+{
+    int deg = ui->lineEdit->text().toInt();
+    makeRectangle(deg);
+}
+
+void MainWindow::makeRectangle(int size)
+{
+    scene=new QGraphicsScene(this);
+    ui->graphicsView->setScene(scene);
+
+    QPen blackPen(Qt::black);
+    blackPen.setWidth(4);
+    QBrush blueBrush(Qt::blue);
+
+    rectangle = scene->addRect(50,50,50,size,blackPen,blueBrush);
 }

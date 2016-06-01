@@ -18,15 +18,17 @@ public:
     ~MainWindow();
 
 public slots:
-    void updateDeg();
+    void editEllipseDeg();
+    void editRectangle();
 
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
     QGraphicsEllipseItem *ellipse;
-    void adjustEllipse(int h);
-    void makeEllipse();
+    QGraphicsRectItem *rectangle;
 
+    void adjustEllipse(int h);
+    void makeRectangle(int);
 };
 
 #endif // MAINWINDOW_H

@@ -13,7 +13,6 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -22,6 +21,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
+#include <cgraphicsview.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -29,11 +29,11 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QGraphicsView *graphicsView;
-    QLineEdit *lineEdit;
+    CGraphicsView *graphicsView;
     QLabel *label;
+    QLineEdit *positionEdit;
+    QLineEdit *positionEdit_2;
     QLabel *label_2;
-    QLineEdit *lineEdit_2;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -42,28 +42,29 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(752, 791);
+        MainWindow->resize(777, 657);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        graphicsView = new QGraphicsView(centralWidget);
+        graphicsView = new CGraphicsView(centralWidget);
         graphicsView->setObjectName(QStringLiteral("graphicsView"));
-        graphicsView->setGeometry(QRect(150, 0, 256, 192));
-        lineEdit = new QLineEdit(centralWidget);
-        lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(10, 30, 133, 20));
+        graphicsView->setGeometry(QRect(200, 20, 521, 521));
+        graphicsView->setMouseTracking(true);
         label = new QLabel(centralWidget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(10, 10, 131, 16));
+        label->setGeometry(QRect(20, 20, 51, 16));
+        positionEdit = new QLineEdit(centralWidget);
+        positionEdit->setObjectName(QStringLiteral("positionEdit"));
+        positionEdit->setGeometry(QRect(80, 20, 101, 21));
+        positionEdit_2 = new QLineEdit(centralWidget);
+        positionEdit_2->setObjectName(QStringLiteral("positionEdit_2"));
+        positionEdit_2->setGeometry(QRect(80, 70, 101, 20));
         label_2 = new QLabel(centralWidget);
         label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setGeometry(QRect(10, 70, 131, 16));
-        lineEdit_2 = new QLineEdit(centralWidget);
-        lineEdit_2->setObjectName(QStringLiteral("lineEdit_2"));
-        lineEdit_2->setGeometry(QRect(10, 90, 133, 20));
+        label_2->setGeometry(QRect(20, 70, 47, 13));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 752, 21));
+        menuBar->setGeometry(QRect(0, 0, 777, 21));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -73,8 +74,6 @@ public:
         MainWindow->setStatusBar(statusBar);
 
         retranslateUi(MainWindow);
-        QObject::connect(lineEdit, SIGNAL(returnPressed()), MainWindow, SLOT(editEllipseDeg()));
-        QObject::connect(lineEdit_2, SIGNAL(returnPressed()), MainWindow, SLOT(editRectangle()));
 
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
@@ -82,8 +81,8 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        label->setText(QApplication::translate("MainWindow", "Elipse Degree", 0));
-        label_2->setText(QApplication::translate("MainWindow", "Rectangle Size", 0));
+        label->setText(QApplication::translate("MainWindow", "Position:", 0));
+        label_2->setText(QApplication::translate("MainWindow", "Clicked", 0));
     } // retranslateUi
 
 };

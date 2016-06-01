@@ -39,12 +39,35 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>47</width>
+      <width>131</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Hieght</string>
+     <string>Elipse Degree</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rectangle Size</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -75,20 +98,37 @@
    <sender>lineEdit</sender>
    <signal>returnPressed()</signal>
    <receiver>MainWindow</receiver>
-   <slot>updateDeg()</slot>
+   <slot>editEllipseDeg()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>57</x>
-     <y>58</y>
+     <y>82</y>
     </hint>
     <hint type="destinationlabel">
-     <x>51</x>
-     <y>115</y>
+     <x>66</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_2</sender>
+   <signal>returnPressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>editRectangle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>278</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>102</x>
+     <y>360</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
-  <slot>updateDeg()</slot>
+  <slot>editEllipseDeg()</slot>
+  <slot>editRectangle()</slot>
  </slots>
 </ui>
