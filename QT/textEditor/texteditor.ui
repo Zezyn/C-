@@ -52,16 +52,28 @@
    <addaction name="menuFile"/>
   </widget>
   <action name="actionNew">
+   <property name="icon">
+    <iconset theme="standard"/>
+   </property>
    <property name="text">
     <string>New</string>
    </property>
+   <property name="toolTip">
+    <string>New Document</string>
+   </property>
   </action>
   <action name="actionOpen">
+   <property name="icon">
+    <iconset theme="standard"/>
+   </property>
    <property name="text">
     <string>Open</string>
    </property>
   </action>
   <action name="actionSave">
+   <property name="icon">
+    <iconset theme="standard"/>
+   </property>
    <property name="text">
     <string>Save</string>
    </property>

@@ -19,6 +19,7 @@ public:
 private:
     std::vector<std::string> text;
     int linenum = 1;
+    int lnr = 1; //Used for line number manipulation
 };
 
 

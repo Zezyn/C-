@@ -46,10 +46,14 @@ public:
         textEditor->resize(530, 793);
         actionNew = new QAction(textEditor);
         actionNew->setObjectName(QStringLiteral("actionNew"));
+        QIcon icon(QIcon::fromTheme(QStringLiteral("standard")));
+        actionNew->setIcon(icon);
         actionOpen = new QAction(textEditor);
         actionOpen->setObjectName(QStringLiteral("actionOpen"));
+        actionOpen->setIcon(icon);
         actionSave = new QAction(textEditor);
         actionSave->setObjectName(QStringLiteral("actionSave"));
+        actionSave->setIcon(icon);
         centralWidget = new QWidget(textEditor);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         horizontalLayout = new QHBoxLayout(centralWidget);
@@ -92,6 +96,9 @@ public:
     {
         textEditor->setWindowTitle(QApplication::translate("textEditor", "textEditor", 0));
         actionNew->setText(QApplication::translate("textEditor", "New", 0));
+#ifndef QT_NO_TOOLTIP
+        actionNew->setToolTip(QApplication::translate("textEditor", "New Document", 0));
+#endif // QT_NO_TOOLTIP
         actionOpen->setText(QApplication::translate("textEditor", "Open", 0));
         actionSave->setText(QApplication::translate("textEditor", "Save", 0));
         menuFile->setTitle(QApplication::translate("textEditor", "File", 0));
