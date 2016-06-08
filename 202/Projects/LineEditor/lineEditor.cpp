@@ -6,76 +6,103 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <vector> 
 
 using namespace std;
 
 void lineEditor::newText()
 {
-
+    text.clear();
+    linenum = 1;
+    std::cout << linenum << "> ";
 }
 
 void lineEditor::openText()
 {
-    cout << "Enter filename: ";
-    std::string filen;
-    cin >> filen;
-    cout << endl;
+    std:string buffer;
 
+    cout << "Please enter a filename to open (ex: filename.txt): ";
     std::string filename;
-    getline(cin, filename);  // <- to allow whitespaces
-    std::fstream f(filename, ios::in);
-// do something with the file
-    f.close();
+    cin >> filename;
+    cin.ignore();
 
-// Open file
-    ifstream file(filename.c_str());
-
+    std::ifstream f;
+    f.open(filename);
+    while(!f.eof()) {        
+        getline(f, buffer);
+        f.ignore();
+        std::cout << "BUFFER: " << buffer << endl;
+        text.push_back(buffer);
+    }
+    cout << text.size() << endl;
+    for(std::vector<string>::iterator it = text.begin(); it != text.end(); it++)
+    {
+        std::cout << *it << endl;
+    } 
+    /*
+    for(int in=0;in<text.size();in++) 
+    {
+        //std::cout << text[in];
+        std::cout << linenum << "> " << text[in] << endl;
+        linenum += 1;
+    }
+    
+    cout << endl;
+    */
 }
 
 void lineEditor::saveText()
 {
     std::string filename;
-    std::cout << "Please enter a file name (ex:filename.txt): ";
+    std::cout << "Please enter a file name to save as (ex: filename.txt): ";
     std::cin >> filename;
+    std::cin.ignore();
 
-    //for(std::vector<int>::iterator it = text.begin(); it != text.end();it++)
-      //  cout <<*it<<std::endl;
-
+    std::ofstream f;
+    f.open(filename);
     for(int i=0;i<5;i++)
-        { cout << text[i] << endl; }
-    Text();
+    { 
+        //cout << text[i] << endl; 
+        f << text[i] << endl;
+    }
+    f.close();
 }
 
 void lineEditor::Text()
 {
     std::string line;
-    int linenum = 2;
 
     std::cout << endl << "*****************************************************" << endl;
     std::cout << "              Line        Editor                     " << endl;
     std::cout << "*****************************************************" << endl;
     std::cout << "!N = Blank Page | !O = Open | !S = Save | !Q to quit" << endl;
-    std::cout << "*****************************************************" << endl;
-    std::cout << "1> ";
+    std::cout << "*****************************************************" << endl << endl;
 
-    while(getline(cin, line))
+    do
     {
         if (line == "!Q") {
             exit(1);
         }
         else if (line == "!N") {
             newText();
+            //continue;
         }
         else if (line == "!O") {
             openText();
+            //continue;
         }
         else if (line == "!S") {
             saveText();
+            //continue;
         }
         else {
-            cout << linenum << "> ";
+            std::cout << linenum << "> ";
             text.push_back(line);
             linenum += 1;
         }
-    }
+    } while(getline(cin, line));
+}
+
+void lineEditor::editText() { 
+
 }

@@ -12,12 +12,13 @@
 class lineEditor {
 public:
     void newText();
+    void editText();
     void openText();
     void saveText();
     void Text();
-
 private:
     std::vector<std::string> text;
+    int linenum = 1;
 };
 
 
