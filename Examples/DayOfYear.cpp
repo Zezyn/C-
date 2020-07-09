@@ -2,122 +2,40 @@
 
 using namespace std;
 
-class DayOfYear
-{
-	private:
-        int month;
-        int day;
-        int year;
+class SomeInnerClass{
+}
 
-    public:
-        DayOfYear();
-        DayOfYear(int,int,int);
-        void set(int,int,int); 
-        void setMonth(int);
-        void setDay(int);
-        void setYear(int);
-        int getMonth();
-        int getDay();
-        int getYear();
-		bool isLeapYear();
-        void print(); 
+class DayOfYear{
+
+	public:
+	    void output();
+		 void set_month(int);
+		 int get_month();
+		 void set_day(int);
+		 int get_day();
+
+   private:
+		 int month;
+		 int day;
 };
 
-DayOfYear::DayOfYear()
+void DayOfYear::output()
 {
-    day = 1;
-    month = 1;
-    year = 1970;
+	cout << month << " / " << day;
 }
 
-DayOfYear::DayOfYear(int m,int d,int y)
-{
-    set(m,d,y);
+void DayOfYear::set_month(int m){
+	month = m;
 }
 
-void DayOfYear::setMonth(int m)
-{
-    if (m > 0 && m < 13)
-        month = m;
-    else
-    {
-        cout << "Invalid month, setting to 1" << endl;
-        month = 1;
-    }
-
+void DayOfYear::set_day(int d){
+	day = d;
 }
-
-int DayOfYear::getMonth()
-{
-    return month;
-}
-
-void DayOfYear::setDay(int d)
-{
-    if (d > 0 && d < 32)
-    {
-        if (month == 2 && day < 30)
-            day = d;
-        else
-            day = 1;
-    }
-    else
-    {
-        cout << "Invalid day, setting to 1" << endl;
-        day = 1;
-    }
-}
-
-int DayOfYear::getDay()
-{
-    return day;
-}
-
-
-void DayOfYear::setYear(int y)
-{
-
-    if (y > 0)
-        year = y;
-}
-
-int DayOfYear::getYear()
-{
-    return year;
-}
-
-void DayOfYear::print()
-{
-    cout << month << "/" << day << "/" << year << endl;
-}
-
-void DayOfYear::set(int m,int d,int y)
-{
-    setMonth(m);
-    setDay(d);
-    setYear(y);
-}
-
-void incrementMonth(DayOfYear&);
-
 int main()
 {
+   DayOfYear d;
 
-    DayOfYear dy1;
-    dy1.setMonth(2);
-    incrementMonth(dy1);
-    DayOfYear dy2(13,35,2011);
-    dy1.print();
-	if(dy1.isLeapYear()){
-		cout << "dy1 is a leap year" << endl;
-    }
-    dy2.print();
-    return 0;
-}
+	d.output();
 
-void incrementMonth(DayOfYear& dy)
-{
-    int m = dy.getMonth();
-    m++;
-    dy.setMonth(m);
+	return 0;
 }

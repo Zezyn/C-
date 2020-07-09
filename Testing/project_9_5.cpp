@@ -34,87 +34,77 @@ using namespace std;
 
 const int TOTAL_LABS = 4;
 const int TOTAL_STATIONS = 6;
-const int LAB1 = 5;
-const int LAB2 = 6;
-const int LAB3 = 4;
-const int LAB4 = 3;
+const string LAB1 = "5";
+const string LAB2 = "6";
+const string LAB3 = "4";
+const string LAB4 = "3";
 
 //void menu(string &id, int &cstation, int &lab, string labs[]);
+void arraysize(string lab[]);
 //void login(string &id, int &cstation, int &lab, string labs[]);
-void arraysize(string &id, int &lab, int &cstation, string *labs, int labsize);
-//void fillarrays(string &id, int &lab, int &cstation, string **labs, int labsize);
-//void printarrays(string &id, int &lab, int &cstation, string **labs, int labsize);
-void removearrays(string *labs);
+void fillarrays(string &id, int &lab, int &cstation, string labs[]);
+void printarrays(string &id, int &cstation, int &lab, string labs[]);
 //void search(string labs[]);
 //void logout(string labs[]);
 
 int main() {
     
-    string id = "12334"; //Numbers are for testing
+    string id = 12334;
     int cstation = 3;
     int lab = 1;
-    string *labs[TOTAL_LABS];
-	int labsize[TOTAL_LABS] = { LAB1,LAB2,LAB3,LAB4 };
-    //int labsize[TOTAL_LABS];
-	
-	//arraysize(id, cstation, lab, *labs, **labsize);
-    //fillarrays(id, cstation, lab, labs);
-    //menu(id, cstation, lab, labs);
-    //printarrays(id, cstation, lab, labs, labsize);
-    removearrays(*labs);
-	return 0;
+    
+    string **labs[TOTAL_LABS];
+    string labsize[TOTAL_LABS] = { LAB1,LAB2,LAB3,LAB4 };
+       
+    
+    arraysize(id, cstation, lab, labs, labsize);
+    fillarrays(id, cstation, lab, labs);
+    printarrays(id, cstation, lab, labs, labsize);
+    removearrays(labs);
+   // menu(id, cstation, lab, labs);
+    return 0;
 }
 
-void removearrays(string *labs) {
-	for (int i = 0; i < TOTAL_LABS; i++)
-		{ delete [] labs[i]; }
-	delete [] labs;
+void arraysize(string lab[]) {  //TOnnings example
+int labsize[]; 
+   int **lab;
+    int labsize[4] = { 5,3,6,7 };
+    lab = new int*[4];
+for(int i=0; i< 4; i++)
+    lab[i] = new int [labsize[i]]; 
+
 }
 
-void arraysize(string &id, int &lab, int &cstation, string *labs, int labsize) {  //TOnnings example
-    
-    
-    
-    labs = new int [TOTAL_LABS];
-    //labsize[] = { LAB1,LAB2,LAB3,LAB4 };
-	
-	
-    for(int i=0; i< TOTAL_LABS; i++)
-		{ labs[i] = new int [labsize[i]]; }
-	
-	
-	//labs[0] = labsize[0];
-	//labs[1] = labsize[1];
-	//labs[2] = labsize[2];
-	//labs[3] = labsize[3];
 
-	//fillarrays(id, lab, labs, cstation, labsize);
-}
-
-/*
-void fillarrays(string &id, int &lab, int &cstation, string **labs, int labsize) {
+void fillarrays(string &id, int &lab, int &cstation, string *labs[]) {
 
     for(int row = 0; row<TOTAL_LABS;row ++) {
-        for(int col=0; col<TOTAL_LABS; col++) {
-            labs[row] = "Empty";
+        for(int col=0; col<sizeof(labs[row]); col++) {
+            labs[row][col] = "Empty";
         }
     }   
-}
-
-void printarrays(string &id, int &lab, int &cstation, string **labs, int labsize) {
+}   
+void printarrays(string &id, int &cstation, int &lab, string *labs[]) {
         
     cout << "\nLabs#" << "  " << "Computer Stations" << endl;;
     for(int rows=0 ;rows<TOTAL_LABS; rows++) {
         cout << " " << (rows+1) << ":    ";
-        for(int cols=0; cols<TOTAL_LABS; cols++) {
+        for(int cols=0; cols<sizeof(labs[row]); cols++) {
             cout << (cols+1) << ": ";
-            cout << labs[rows] << "     ";
+            cout << labs[rows][cols] << "     ";
         }   
     cout << endl;
     }
-    //menu(id, cstation, lab, labs);
-}*/
-/*
+    menu(id, cstation, lab, labs);
+}
+
+void removearrays(string **labs[]) {
+
+    delete [] labs;
+}
+
+
+
 void menu(string &id, int &cstation, int &lab, string labs[])  {
     int decision = 0;
     do {
